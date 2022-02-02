@@ -4,6 +4,8 @@ Tuesday Feb 1st:
 
 SVM GOAL: Deduce how good or bad each possible amino acid nucleotide interaction is in each of the four canonical contacts. 
 
+Canonical Structure Model to represent each potential protein-DNA complex by a feature vector x. 
+
 Given data within the databas:
 	- Positive Examples (protein binds the DNA)
 	- Negative Examples (protein does not bind to the DNA)
@@ -13,6 +15,16 @@ For each example within the database, they are shown within a vector representat
 	- For linear models, all examples are considered at the per-protein level (including contacts from all fingers).
 	- Polynomial SVM, in order to limit the pairwise interactions to contacts within individual zinc fingers. 
 
+Ex+ -> Positive Example
+Ex- -> Negative Example
+Ex> -> One protein - DNA pair representes a stronger binding than another protein - DNA pair. 
+
 A positive sample is considered at Kd < 200nM is considered a positive example. 
 
 Gather a weight vector that accuractely seperates the binding and non binding examples.
+
+
+
+Questions: 
+DNA pair + f1 + f2 + f3 = one feature vector example?
+How to use the conanical model for binding with these examples? 
