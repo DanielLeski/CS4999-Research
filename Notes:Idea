@@ -23,8 +23,13 @@ A positive sample is considered at Kd < 200nM is considered a positive example.
 
 Gather a weight vector that accuractely seperates the binding and non binding examples.
 
-
-
 Questions: 
 DNA pair + f1 + f2 + f3 = one feature vector example?
-How to use the conanical model for binding with these examples? 
+How to use the conanical model for binding with these DNA examples? 
+
+For the SVM we need to having floating point numbers for the DNA .. do we do a conversion for these DNA sequences based on their amino acid value?
+
+
+"We apply the widely used support vector machinery to do this. Given a dataset of training examples xi, SVMs search for a weight vector w that best separates binding and non-binding examples"
+
+What is xi in this case? From my interpretation it is not the canonical binding structure so it is the DNA or the ZF domains. 
