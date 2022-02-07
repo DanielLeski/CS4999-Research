@@ -31,7 +31,7 @@ For the SVM we need to having floating point numbers for the DNA .. do we do a c
 
 "We apply the widely used support vector machinery to do this. Given a dataset of training examples xi, SVMs search for a weight vector w that best separates binding and non-binding examples"
 
-What is xi in this case? From my interpretation it is not the canonical binding structure so it is the DNA or the ZF domains. 
+What is xi in this case? From my interpretation it is not the canonical binding structure so it is the DNA and or ZF domains. 
 
 TODO:
 Make a jupyter notebook making with all of the 80 categorical variables the 20 amino acids and 4 bases and dummy variables for hotencoding to run it through a random forest and see how it goes with that. 
