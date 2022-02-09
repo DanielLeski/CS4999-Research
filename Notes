@@ -65,3 +65,4 @@ Probably ask simple questions to Dr.Nowling for things I should know but don't f
 
 
 Probably going to have to convert the database files into a SVM_light file that can be parsed. Need to get the feature/value pairs parseable
+Got the SVM_light to work but and figured out the layout of the feature/value pairs just have to see how to get that to work on the database.txt or canonical model 
