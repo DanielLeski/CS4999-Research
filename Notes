@@ -64,4 +64,4 @@ Look into unsupervised learning methods and present.
 Probably ask simple questions to Dr.Nowling for things I should know but don't fully grasp yet. 
 
 
-
+Probably going to have to convert the database files into a SVM_light file that can be parsed. Need to get the feature/value pairs parseable
