@@ -59,3 +59,5 @@ Feb 9th:
 GOALS: 
 
 Try to figure out the 4N(DNA) to the 7N(Zinc Finger) then create a those as features and the other as categories 
+
+Kmer count vectorizer, get each of these DNA and Zinc finger and make the matrixes
