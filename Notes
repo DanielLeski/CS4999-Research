@@ -58,16 +58,6 @@ Feb 9th:
 
 GOALS: 
 
-So organize the notebook to show my attempts
-Continue on trying to their SVM model to compile because it simply just can't .. they are wizards I swear.
-Look into unsupervised learning methods and present.
-Probably ask simple questions to Dr.Nowling for things I should know but don't fully grasp yet. 
+Try to figure out the 4N(DNA) to the 7N(Zinc Finger) then create a those as features and the other as categories 
 
-
-Probably going to have to convert the database files into a SVM_light file that can be parsed. Need to get the feature/value pairs parseable
-Got the SVM_light to work but and figured out the layout of the feature/value pairs just have to see how to get that to work on the database.txt or canonical model 
-  - what value is 01At for example. 
-  - what values would be best to get out of a protein sequence
-  - https://webs.iiitd.edu.in/raghava/gpsr/Common_Bioinformatics_Tools.html
-
- 
+Kmer count vectorizer, get each of these DNA and Zinc finger and make the matrixes
